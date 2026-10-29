@@ -1,0 +1,1328 @@
+{
+  "projeto": "O País do Futuro, Agora",
+  "autor": "Elton Mesquita",
+  "status": "rascunho não publicado",
+  "gerado": "2026-10-29",
+  "areas": [
+    {
+      "slug": "educacao",
+      "nome": "Educação",
+      "diagnostico": [
+        {
+          "texto": "[Dado] PISA 2022: Brasil 379 pts em matemática, 410 em leitura e 403 em ciências; média OCDE 472/476/485.",
+          "fonte": "OCDE – PISA 2022",
+          "url": "https://www.oecd.org/pisa/"
+        },
+        {
+          "texto": "[Dado] Indicador Criança Alfabetizada: 66% em 2025 (meta de 64% superada), após 56% em 2023 e 59,2% em 2024.",
+          "fonte": "INEP – Avaliação da Alfabetização 2025",
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/avaliacao-da-alfabetizacao/resultados/2025"
+        },
+        {
+          "texto": "[Dado] IDEB 2025 (divulgado em 05/08/2026): 6,3 (anos iniciais), 5,3 (anos finais), 4,5 (ensino médio); rede pública 6,1/5,0/4,3.",
+          "fonte": "INEP – IDEB 2005–2025",
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/pesquisas-estatisticas-e-indicadores/ideb/resultados/2005-2025"
+        },
+        {
+          "texto": "[Estimativa] Gasto público em educação ≈ 5% a 5,5% do PIB, acima da média OCDE em % do PIB, mas baixo por aluno.",
+          "fonte": "INEP – Investimento público em educação / OCDE Education at a Glance",
+          "url": "https://www.oecd.org/education/education-at-a-glance/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Crianças alfabetizadas ao fim do 2º ano (%)",
+          "atual": "66 (2025)",
+          "fonte": "INEP",
+          "url": "https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/avaliacao-da-alfabetizacao/resultados/2025",
+          "meta_1": "70",
+          "meta_3": "78",
+          "meta_5": "85",
+          "valores": {
+            "atual": 66,
+            "meta_1": 70,
+            "meta_3": 78,
+            "meta_5": 85,
+            "unidade": "%"
+          }
+        },
+        {
+          "indicador": "PISA matemática (pts)",
+          "atual": "379 (2022)",
+          "fonte": "OCDE",
+          "url": "https://www.oecd.org/pisa/",
+          "meta_1": "—",
+          "meta_3": "PISA 2025: 390",
+          "meta_5": "PISA 2029: 410",
+          "valores": {
+            "atual": 379,
+            "meta_1": null,
+            "meta_3": 390,
+            "meta_5": 410,
+            "unidade": "pontos"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Tutor de IA em português alinhado à BNCC, gratuito via celular (referência: Khanmigo nos EUA; Coreia do Sul piloto de livros didáticos com IA, 2025).",
+        "[Hipótese] Correção automática de redação e diagnóstico por aluno (referência: Oak National Academy 'Aila', Reino Unido).",
+        "[Hipótese] Painel de alerta precoce de evasão com dados do Censo Escolar e frequência (referência: sistemas de early warning na Índia/estado de Andhra Pradesh).",
+        "[Hipótese] Assistente de planejamento de aulas para professores, reduzindo carga administrativa."
+      ],
+      "reformas": [
+        "Lei: Sistema Nacional de Educação com metas e responsabilização por resultado (PLP em tramitação).",
+        "Lei: vouchers/charters opcionais em redes estaduais (modelo de parceria, sem PEC).",
+        "Decreto/Portaria MEC: padrão aberto de dados educacionais e uso de IA na escola com proteção (LGPD)."
+      ],
+      "custo": "[Hipótese] Realocação dentro do orçamento existente (FUNDEB + MEC); custo incremental da plataforma de IA estimado em fração pequena do orçamento do MEC — valor exato não levantado (lacuna). Fontes: parcerias público-privadas, bancos multilaterais (BID/Banco Mundial).",
+      "riscos": [
+        "Corporações docentes e sindicatos resistentes a avaliação por desempenho.",
+        "Federalismo: redes são estaduais e municipais; União só induz.",
+        "Conectividade desigual nas escolas rurais.",
+        "LGPD e dados de menores."
+      ],
+      "sequenciamento": [
+        "Ano 1: diagnóstico censitário + piloto de tutor IA em 3 estados.",
+        "Anos 2–3: escala nacional, incentivos via FUNDEB-VAAR.",
+        "Anos 4–5: avaliação de impacto e expansão para ensino médio técnico."
+      ]
+    },
+    {
+      "slug": "seguranca",
+      "nome": "Segurança pública",
+      "diagnostico": [
+        {
+          "texto": "[Dado] 40.775 mortes violentas intencionais em 2025, taxa de 19,1 por 100 mil (−8,2% ante 2024, quando foram 44.127 e taxa de 20,8).",
+          "fonte": "FBSP – 20º Anuário Brasileiro de Segurança Pública 2026 (dados das SSPs)",
+          "url": "https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9"
+        },
+        {
+          "texto": "[Dado] Série histórica de homicídios e análise por perfil de vítima.",
+          "fonte": "IPEA – Atlas da Violência",
+          "url": "https://www.ipea.gov.br/atlasviolencia/"
+        },
+        {
+          "texto": "[Dado] 960.976 pessoas privadas de liberdade em 31/12/2025 (727.301 em celas físicas; 233.081 em domiciliar).",
+          "fonte": "SENAPPEN – SISDEPEN, 2º semestre de 2025",
+          "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/bases-de-dados/2025"
+        },
+        {
+          "texto": "[Lacuna] Taxa nacional de esclarecimento de homicídios não é publicada oficialmente de forma padronizada; estudos do Instituto Sou da Paz indicam patamar baixo.",
+          "fonte": "Instituto Sou da Paz",
+          "url": "https://soudapaz.org/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Taxa de MVI por 100 mil",
+          "atual": "19,1 (2025)",
+          "fonte": "FBSP",
+          "url": "https://publicacoes.forumseguranca.org.br/items/bb542342-3cf8-47a5-a51d-a0eb911914b9",
+          "meta_1": "18",
+          "meta_3": "15",
+          "meta_5": "12",
+          "valores": {
+            "atual": 19.1,
+            "meta_1": 18,
+            "meta_3": 15,
+            "meta_5": 12,
+            "unidade": "por 100 mil hab."
+          }
+        },
+        {
+          "indicador": "Taxa de esclarecimento de homicídios (%)",
+          "atual": "Lacuna",
+          "fonte": "—",
+          "url": "",
+          "meta_1": "Medir",
+          "meta_3": "50",
+          "meta_5": "65",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": 50,
+            "meta_5": 65,
+            "unidade": "%"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Integração nacional de dados criminais com IA para análise de vínculos (referência: Singapore Police Force e plataforma de dados policiais).",
+        "[Hipótese] Leitura de placas e câmeras com governança e auditoria (referência: Smart Sampa, São Paulo, Brasil).",
+        "[Hipótese] Rastreamento financeiro de facções com IA no COAF (referência: FinCEN/EUA; parcerias de inteligência com EUA no realinhamento).",
+        "[Hipótese] Policiamento preditivo de hotspots com avaliação independente para evitar viés."
+      ],
+      "reformas": [
+        "PEC da Segurança Pública (constitucionaliza o SUSP e amplia papel da União) – PEC 18/2025.",
+        "Lei: tipificação de facções criminosas como organizações terroristas/ultraviolentas e endurecimento de progressão de regime.",
+        "Lei: marco de uso de reconhecimento facial com controle judicial e auditoria."
+      ],
+      "custo": "[Hipótese] Fundo Nacional de Segurança Pública (FNSP) + receitas de bens apreendidos do crime; cooperação EUA (treinamento, inteligência).",
+      "riscos": [
+        "STF (ADPF 635 e jurisprudência sobre operações policiais e reconhecimento facial).",
+        "Governadores resistentes à centralização.",
+        "Infiltração do crime organizado em instituições.",
+        "Risco de viés algorítmico e violações de direitos."
+      ],
+      "sequenciamento": [
+        "Ano 1: base nacional de dados + força-tarefa financeira contra facções.",
+        "Anos 2–3: câmeras e analytics nas 50 cidades mais violentas.",
+        "Anos 4–5: metas por estado com repasses condicionados."
+      ]
+    },
+    {
+      "slug": "economia-financas-publicas",
+      "nome": "Economia e finanças públicas",
+      "diagnostico": [
+        {
+          "texto": "[Dado] PIB cresceu 2,3% em 2025 (3,4% em 2024), totalizando R$ 12,7 trilhões; taxa de investimento de 16,8% do PIB.",
+          "fonte": "IBGE – Contas Nacionais Trimestrais",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes"
+        },
+        {
+          "texto": "[Dado] Dívida Bruta do Governo Geral: 76,3% do PIB (dez/2024), 78,7% (dez/2025) e 82,9% (ago/2026).",
+          "fonte": "BCB – Estatísticas fiscais (nota de 30/09/2026)",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf"
+        },
+        {
+          "texto": "[Dado] IPCA de 4,26% em 2025 (abaixo do teto de 4,5%), após 4,83% em 2024.",
+          "fonte": "IBGE – IPCA",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45613-ipca-em-dezembro-vai-a-0-33-e-acumula-4-26-em-2025"
+        },
+        {
+          "texto": "[Dado] Selic em 15% a.a. desde jun/2025; reduzida para 13,75% em set/2026.",
+          "fonte": "BCB – Histórico das taxas de juros",
+          "url": "https://www.bcb.gov.br/controleinflacao/historicotaxasjuros"
+        },
+        {
+          "texto": "[Dado] Setor público consolidado: déficit primário de 0,40% do PIB em 2024, 0,43% em 2025 e 0,62% nos 12 meses até ago/2026; juros nominais de 7,91% do PIB em 2025.",
+          "fonte": "BCB – Estatísticas fiscais (nota de 30/01/2026)",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "DBGG (% PIB)",
+          "atual": "82,9 (ago/2026)",
+          "fonte": "BCB",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "meta_1": "Estabilizar (≤83)",
+          "meta_3": "78",
+          "meta_5": "70",
+          "valores": {
+            "atual": 82.9,
+            "meta_1": 83,
+            "meta_3": 78,
+            "meta_5": 70,
+            "unidade": "% PIB"
+          }
+        },
+        {
+          "indicador": "Resultado primário do setor público (% PIB)",
+          "atual": "−0,62 (12 meses até ago/2026); −0,43 (2025)",
+          "fonte": "BCB",
+          "url": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+          "meta_1": "0",
+          "meta_3": "+1,5",
+          "meta_5": "+2,0",
+          "valores": {
+            "atual": -0.62,
+            "meta_1": 0,
+            "meta_3": 1.5,
+            "meta_5": 2.0,
+            "unidade": "% PIB"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Revisão de gastos com IA (spending review) cruzando bases de benefícios (referência: CGU 'Alice' e TCU 'Sofia', Brasil; Austrália e Reino Unido em spending reviews).",
+        "[Hipótese] Detecção de fraudes em benefícios e compras públicas (referência: Índia – Aadhaar/DBT economizou subsídios desviados, segundo governo indiano).",
+        "[Hipótese] Previsão de arrecadação e nowcasting do PIB com IA (referência: FMI e bancos centrais)."
+      ],
+      "reformas": [
+        "PEC: desvinculação de receitas e desindexação de despesas (piso de saúde/educação vinculados ao crescimento real).",
+        "LC: regra de dívida com âncora explícita e gatilhos automáticos.",
+        "Lei: revisão de gastos tributários (subsídios)."
+      ],
+      "custo": "[Dado] Gastos tributários federais previstos para 2026: R$ 612,8 bilhões (4,43% do PIB) — Receita Federal, DGT PLOA 2026 (https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa). [Hipótese] São a principal fonte de ajuste; privatizações e concessões complementam.",
+      "riscos": [
+        "Congresso resistente a cortes de emendas e benefícios setoriais.",
+        "Vinculações constitucionais exigem PEC (3/5 em dois turnos).",
+        "Pressão eleitoral por gasto."
+      ],
+      "sequenciamento": [
+        "Ano 1: spending review + PEC de desvinculação.",
+        "Anos 2–3: superávit primário crescente.",
+        "Anos 4–5: queda sustentada dos juros reais e da dívida."
+      ]
+    },
+    {
+      "slug": "previdencia",
+      "nome": "Previdência",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Reforma da Previdência aprovada pela EC 103/2019.",
+          "fonte": "Planalto – EC 103/2019",
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm"
+        },
+        {
+          "texto": "[Dado] Resultado do RGPS divulgado mensalmente; déficit é o maior item do resultado primário.",
+          "fonte": "Tesouro Nacional – RTN",
+          "url": "https://www.tesourotransparente.gov.br/"
+        },
+        {
+          "texto": "[Dado] Censo 2022: índice de envelhecimento de 55,2 idosos por 100 jovens.",
+          "fonte": "IBGE – Censo 2022",
+          "url": "https://censo2022.ibge.gov.br/"
+        },
+        {
+          "texto": "[Dado] Déficit do RGPS de R$ 317,2 bilhões em 2025 (2,49% do PIB) no Resultado do Tesouro; o INSS informa necessidade de financiamento de R$ 320,9 bi. [Lacuna] Déficits consolidados de RPPS da União e dos militares em 2025 não foram extraídos.",
+          "fonte": "Tesouro Nacional – RTN dez/2025; Ministério da Previdência – Resultado do RGPS",
+          "url": "https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/resultados-do-rgps/2025/resultado-do-rgps-2025-12-urbano-rural.pdf"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Fila do INSS (requerimentos aguardando)",
+          "atual": "1,203 milhão (set/2026; 189 mil acima de 45 dias)",
+          "fonte": "INSS – Dados abertos / Valor",
+          "url": "https://dadosabertos.inss.gov.br/",
+          "meta_1": "−30%",
+          "meta_3": "−70%",
+          "meta_5": "Análise em até 7 dias",
+          "valores": {
+            "atual": 1.203,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "milhões de requerimentos"
+          }
+        },
+        {
+          "indicador": "Déficit RGPS (% PIB)",
+          "atual": "2,49 (2025)",
+          "fonte": "Tesouro",
+          "url": "https://www.gov.br/previdencia/pt-br/assuntos/previdencia-social/resultados-do-rgps/2025/resultado-do-rgps-2025-12-urbano-rural.pdf",
+          "meta_1": "2,5",
+          "meta_3": "2,3",
+          "meta_5": "2,0",
+          "valores": {
+            "atual": 2.49,
+            "meta_1": 2.5,
+            "meta_3": 2.3,
+            "meta_5": 2.0,
+            "unidade": "% PIB"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Concessão automática de benefícios com dados do CNIS e IA (referência: Estônia – serviços proativos; Brasil já tem concessão automática parcial no INSS).",
+        "[Hipótese] Detecção de fraudes em descontos associativos e benefícios (o escândalo dos descontos indevidos do INSS em 2025 mostra a necessidade).",
+        "[Hipótese] Prova de vida digital por biometria (já em uso no Brasil, gov.br)."
+      ],
+      "reformas": [
+        "PEC: idade mínima indexada à expectativa de vida e regras para militares e RPPS estaduais.",
+        "Lei: previdência complementar com capitalização opcional.",
+        "Decreto: concessão automática e auditoria algorítmica no INSS."
+      ],
+      "custo": "[Hipótese] Projeto autofinanciado pela redução de fraudes e da fila; custo de TI a levantar (lacuna).",
+      "riscos": [
+        "Alto custo político; militares e servidores organizados.",
+        "STF sobre direito adquirido.",
+        "Estados com RPPS deficitários."
+      ],
+      "sequenciamento": [
+        "Ano 1: limpeza de fraudes e fila zero.",
+        "Anos 2–3: PEC de indexação.",
+        "Anos 4–5: capitalização opcional para novos entrantes."
+      ]
+    },
+    {
+      "slug": "saude",
+      "nome": "Saúde",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Expectativa de vida ao nascer de 76,6 anos em 2024; mortalidade infantil de 12,25 por mil.",
+          "fonte": "IBGE – Tábuas de mortalidade 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "texto": "[Dado] Gasto total com saúde de 9,39% do PIB em 2022, sendo 4,26% público (contas SHA). A Conta-Satélite do IBGE vai até 2021.",
+          "fonte": "Ministério da Saúde – Relatório SHA 2022",
+          "url": "https://bvsms.saude.gov.br/bvs/publicacoes/relatorio_sha_2022.pdf"
+        },
+        {
+          "texto": "[Dado] Mortalidade, nascidos vivos e internações disponíveis no DataSUS (SIM, SINASC, SIH).",
+          "fonte": "DataSUS – TabNet",
+          "url": "https://datasus.saude.gov.br/informacoes-de-saude-tabnet/"
+        },
+        {
+          "texto": "[Lacuna] Fila nacional de cirurgias eletivas e consultas especializadas não é consolidada publicamente de forma contínua.",
+          "fonte": "Ministério da Saúde",
+          "url": "https://www.gov.br/saude/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Expectativa de vida (anos)",
+          "atual": "76,6 (2024)",
+          "fonte": "IBGE",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024",
+          "meta_1": "76,8",
+          "meta_3": "77,3",
+          "meta_5": "78",
+          "valores": {
+            "atual": 76.6,
+            "meta_1": 76.8,
+            "meta_3": 77.3,
+            "meta_5": 78,
+            "unidade": "anos"
+          }
+        },
+        {
+          "indicador": "Prontuário eletrônico integrado (RNDS) nas UBS (%)",
+          "atual": "Lacuna",
+          "fonte": "Ministério da Saúde",
+          "url": "https://www.gov.br/saude/pt-br/composicao/seidigi/rnds",
+          "meta_1": "60",
+          "meta_3": "90",
+          "meta_5": "100",
+          "valores": {
+            "atual": null,
+            "meta_1": 60,
+            "meta_3": 90,
+            "meta_5": 100,
+            "unidade": "%"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Triagem por IA de retinopatia diabética, tuberculose e câncer (referência: Índia – Aravind/Google; Qure.ai para raio-X de tórax).",
+        "[Hipótese] Regulação inteligente de filas e leitos (referência: NHS England).",
+        "[Hipótese] Prontuário único via RNDS + Meu SUS Digital (referência: Estônia – e-Health Record)."
+      ],
+      "reformas": [
+        "Lei: interoperabilidade obrigatória para prestadores públicos e privados.",
+        "Resolução ANVISA: regulação de software como dispositivo médico com IA.",
+        "Lei: contratação por resultado (pagamento por desempenho) com OSS."
+      ],
+      "custo": "[Hipótese] Recursos do piso constitucional realocados para atenção primária digital; financiamento BID/Banco Mundial para RNDS.",
+      "riscos": [
+        "Gestão tripartite (União/estados/municípios) lenta.",
+        "Conselhos profissionais (ex.: telemedicina, IA diagnóstica).",
+        "Privacidade de dados sensíveis."
+      ],
+      "sequenciamento": [
+        "Ano 1: RNDS + fila nacional pública.",
+        "Anos 2–3: IA de triagem em atenção primária.",
+        "Anos 4–5: pagamento por resultado."
+      ]
+    },
+    {
+      "slug": "infraestrutura-logistica",
+      "nome": "Infraestrutura e logística",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Logistics Performance Index 2023: Brasil com nota 3,2, 51ª posição.",
+          "fonte": "Banco Mundial – LPI",
+          "url": "https://lpi.worldbank.org/"
+        },
+        {
+          "texto": "[Estimativa] Investimento em infraestrutura em torno de 2% do PIB, abaixo dos ~4% considerados necessários por estudos setoriais.",
+          "fonte": "ABDIB / IPEA",
+          "url": "https://www.ipea.gov.br/"
+        },
+        {
+          "texto": "[Dado] Pesquisa CNT de Rodovias avalia condição da malha pavimentada.",
+          "fonte": "CNT – Pesquisa de Rodovias",
+          "url": "https://pesquisarodovias.cnt.org.br/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "LPI Banco Mundial (nota)",
+          "atual": "3,2 (2023)",
+          "fonte": "Banco Mundial",
+          "url": "https://lpi.worldbank.org/",
+          "meta_1": "—",
+          "meta_3": "3,4",
+          "meta_5": "3,6",
+          "valores": {
+            "atual": 3.2,
+            "meta_1": null,
+            "meta_3": 3.4,
+            "meta_5": 3.6,
+            "unidade": "nota (1–5)"
+          }
+        },
+        {
+          "indicador": "Investimento em infraestrutura (% PIB)",
+          "atual": "≈2 [Estimativa]",
+          "fonte": "ABDIB",
+          "url": "https://www.abdib.org.br/",
+          "meta_1": "2,3",
+          "meta_3": "3",
+          "meta_5": "4",
+          "valores": {
+            "atual": 2,
+            "meta_1": 2.3,
+            "meta_3": 3,
+            "meta_5": 4,
+            "unidade": "% PIB"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Gêmeos digitais de portos (referência: Porto de Roterdã; PSA Singapura com IA de alocação de berços).",
+        "[Hipótese] Manutenção preditiva de rodovias por imagem (referência: Índia – projetos NHAI).",
+        "[Hipótese] Licenciamento ambiental com triagem automatizada de estudos."
+      ],
+      "reformas": [
+        "Lei: novo marco de ferrovias (Lei 14.273/2021) – aplicar autorizações.",
+        "Lei Geral do Licenciamento Ambiental (Lei 15.190/2025) – regulamentação.",
+        "Decreto: carteira de concessões e PPPs com garantias."
+      ],
+      "custo": "[Hipótese] Concessões privadas, debêntures incentivadas (Lei 12.431/2011), fundos internacionais (DFC/EUA).",
+      "riscos": [
+        "Judicialização de licenças (MPF, TCU).",
+        "Insegurança regulatória.",
+        "Capacidade de estruturação de projetos."
+      ],
+      "sequenciamento": [
+        "Ano 1: carteira de concessões e licenciamento.",
+        "Anos 2–3: leilões de ferrovias e portos.",
+        "Anos 4–5: corredores multimodais operando."
+      ]
+    },
+    {
+      "slug": "energia",
+      "nome": "Energia",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Renováveis: 88,2% da oferta interna de energia elétrica em 2024 (BEN 2025).",
+          "fonte": "EPE – BEN 2025 (Síntese)",
+          "url": "https://www.epe.gov.br/sites-pt/publicacoes-dados-abertos/publicacoes/PublicacoesArquivos/publicacao-885/topico-767/BEN_S%C3%ADntese_2025_PT.pdf"
+        },
+        {
+          "texto": "[Dado] Produção de petróleo e gás e reservas.",
+          "fonte": "ANP – Painéis dinâmicos",
+          "url": "https://www.gov.br/anp/pt-br/centrais-de-conteudo/paineis-dinamicos-da-anp"
+        },
+        {
+          "texto": "[Lacuna] Custo dos subsídios cruzados na tarifa (CDE) deve ser confirmado na ANEEL para o ano corrente.",
+          "fonte": "ANEEL – Subsidiômetro",
+          "url": "https://www.gov.br/aneel/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Renováveis na matriz elétrica (%)",
+          "atual": "88,2 (2024)",
+          "fonte": "EPE",
+          "url": "https://www.epe.gov.br/pt/publicacoes-dados-abertos/publicacoes/balanco-energetico-nacional-ben",
+          "meta_1": "Manter ≥88",
+          "meta_3": "90",
+          "meta_5": "92",
+          "valores": {
+            "atual": 88.2,
+            "meta_1": 88,
+            "meta_3": 90,
+            "meta_5": 92,
+            "unidade": "%"
+          }
+        },
+        {
+          "indicador": "Data centers / capacidade instalada para IA (MW)",
+          "atual": "Lacuna",
+          "fonte": "—",
+          "url": "",
+          "meta_1": "Mapear",
+          "meta_3": "+1 GW",
+          "meta_5": "+3 GW",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "MW"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Previsão de geração eólica/solar com IA no ONS (referência: Google DeepMind para eólica).",
+        "[Hipótese] Polo de data centers com energia renovável (referência: Redata, regime especial para data centers no Brasil, 2025).",
+        "[Hipótese] Smart grids e combate a furtos de energia."
+      ],
+      "reformas": [
+        "Lei: abertura total do mercado livre de energia.",
+        "Lei: revisão de subsídios na CDE.",
+        "Decreto: regime para data centers verdes."
+      ],
+      "custo": "[Hipótese] Investimento privado em geração e transmissão; leilões ANEEL.",
+      "riscos": [
+        "Lobby de setores subsidiados.",
+        "Restrições socioambientais (ex.: Margem Equatorial).",
+        "Curtailment de renováveis por falta de transmissão."
+      ],
+      "sequenciamento": [
+        "Ano 1: abertura do mercado livre.",
+        "Anos 2–3: leilões de transmissão e data centers.",
+        "Anos 4–5: Brasil como hub de IA verde."
+      ]
+    },
+    {
+      "slug": "agro",
+      "nome": "Agropecuária",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Exportações do agronegócio de US$ 169,2 bilhões em 2025, recorde, 48,5% das exportações totais.",
+          "fonte": "MAPA – Agrostat",
+          "url": "https://indicadores.agricultura.gov.br/agrostat/"
+        },
+        {
+          "texto": "[Dado] Produção agrícola e Levantamentos Sistemáticos.",
+          "fonte": "IBGE – LSPA",
+          "url": "https://www.ibge.gov.br/estatisticas/economicas/agricultura-e-pecuaria.html"
+        },
+        {
+          "texto": "[Estimativa] PIB do agronegócio ampliado ≈ 22–24% do PIB (CEPEA/USP, não oficial).",
+          "fonte": "CEPEA",
+          "url": "https://www.cepea.org.br/br/pib-do-agronegocio-brasileiro.aspx"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Exportações agro (US$ bi)",
+          "atual": "169,2 (2025)",
+          "fonte": "MAPA",
+          "url": "https://indicadores.agricultura.gov.br/agrostat/",
+          "meta_1": "175",
+          "meta_3": "195",
+          "meta_5": "220",
+          "valores": {
+            "atual": 169.2,
+            "meta_1": 175,
+            "meta_3": 195,
+            "meta_5": 220,
+            "unidade": "US$ bi"
+          }
+        },
+        {
+          "indicador": "Área com rastreabilidade digital (%)",
+          "atual": "Lacuna",
+          "fonte": "—",
+          "url": "",
+          "meta_1": "Mapear",
+          "meta_3": "40",
+          "meta_5": "80",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": 40,
+            "meta_5": 80,
+            "unidade": "%"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Rastreabilidade bovina individual com IA e satélite (referência: Uruguai, rastreabilidade 100%).",
+        "[Hipótese] Crédito rural com scoring por satélite (referência: Índia – plataformas de agrotech).",
+        "[Hipótese] Assistência técnica por chatbot em português (referência: Índia – Kisan e-Mitra)."
+      ],
+      "reformas": [
+        "Lei: regularização fundiária digital.",
+        "Decreto: CAR integrado com análise automatizada.",
+        "Lei: seguro rural ampliado."
+      ],
+      "custo": "[Hipótese] Plano Safra reorientado + mercado privado (CPR, Fiagro).",
+      "riscos": [
+        "Barreiras comerciais (EUDR europeia).",
+        "Conflitos fundiários.",
+        "Infraestrutura de escoamento."
+      ],
+      "sequenciamento": [
+        "Ano 1: CAR automatizado.",
+        "Anos 2–3: rastreabilidade nacional.",
+        "Anos 4–5: liderança em agro de baixo carbono."
+      ]
+    },
+    {
+      "slug": "industria",
+      "nome": "Indústria",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Participação da indústria de transformação no PIB e PIM-PF mensal.",
+          "fonte": "IBGE – PIM-PF e Contas Nacionais",
+          "url": "https://www.ibge.gov.br/estatisticas/economicas/industria.html"
+        },
+        {
+          "texto": "[Dado] Indústria de transformação: 13,7% do valor adicionado em 2025, com recuo de 0,2% em volume no ano.",
+          "fonte": "IBGE – Contas Nacionais Trimestrais 4º tri/2025",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes"
+        },
+        {
+          "texto": "[Dado] Brasil tem tarifas médias de importação acima da média de emergentes.",
+          "fonte": "OMC – World Tariff Profiles",
+          "url": "https://www.wto.org/english/res_e/reser_e/tariff_profiles_e.htm"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Indústria de transformação (% VA)",
+          "atual": "13,7 (2025)",
+          "fonte": "IBGE",
+          "url": "https://www.ibge.gov.br/",
+          "meta_1": "13,7",
+          "meta_3": "14,5",
+          "meta_5": "15,5",
+          "valores": {
+            "atual": 13.7,
+            "meta_1": 13.7,
+            "meta_3": 14.5,
+            "meta_5": 15.5,
+            "unidade": "% VA"
+          }
+        },
+        {
+          "indicador": "Densidade de robôs (por 10 mil trabalhadores)",
+          "atual": "Lacuna – IFR",
+          "fonte": "IFR",
+          "url": "https://ifr.org/",
+          "meta_1": "Medir",
+          "meta_3": "+50%",
+          "meta_5": "x2",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "robôs/10 mil trab."
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Programa de IA industrial para PMEs (referência: Singapura – AI Singapore 100 Experiments).",
+        "[Hipótese] Manutenção preditiva e visão computacional na linha (referência: Alemanha – Indústria 4.0)."
+      ],
+      "reformas": [
+        "Lei: abertura comercial gradual e redução de tarifas.",
+        "Acordo de livre comércio com os EUA (negociação via Mercosul ou bilateral).",
+        "Decreto: simplificação de ex-tarifários."
+      ],
+      "custo": "[Hipótese] Fim de subsídios setoriais com redução de tarifas; financiamento via mercado de capitais.",
+      "riscos": [
+        "Lobby industrial protecionista.",
+        "Regras do Mercosul (TEC).",
+        "Custo Brasil."
+      ],
+      "sequenciamento": [
+        "Ano 1: cronograma de abertura.",
+        "Anos 2–3: acordos comerciais.",
+        "Anos 4–5: integração a cadeias globais."
+      ]
+    },
+    {
+      "slug": "ciencia-tecnologia",
+      "nome": "Ciência e tecnologia",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Global Innovation Index 2026: Brasil em 53º entre 139 economias (52º em 2025; 50º em 2024).",
+          "fonte": "OMPI – GII 2026",
+          "url": "https://www.wipo.int/gii-ranking/en/brazil"
+        },
+        {
+          "texto": "[Dado] Dispêndio nacional em P&D de 1,23% do PIB em 2024 (R$ 144,6 bilhões).",
+          "fonte": "MCTI – Indicadores consolidados",
+          "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/indicadores/paginas/recursos-aplicados/indicadores-consolidados"
+        },
+        {
+          "texto": "[Dado] Plano Brasileiro de Inteligência Artificial (PBIA) 2024–2028 anunciado em 2024.",
+          "fonte": "MCTI",
+          "url": "https://www.gov.br/mcti/pt-br"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "P&D (% PIB)",
+          "atual": "1,23 (2024)",
+          "fonte": "MCTI",
+          "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/indicadores/paginas/recursos-aplicados/indicadores-consolidados",
+          "meta_1": "1,3",
+          "meta_3": "1,6",
+          "meta_5": "2,0",
+          "valores": {
+            "atual": 1.23,
+            "meta_1": 1.3,
+            "meta_3": 1.6,
+            "meta_5": 2.0,
+            "unidade": "% PIB"
+          }
+        },
+        {
+          "indicador": "Posição no GII",
+          "atual": "53 (2026)",
+          "fonte": "OMPI",
+          "url": "https://www.wipo.int/gii-ranking/en/brazil",
+          "meta_1": "50",
+          "meta_3": "45",
+          "meta_5": "38",
+          "valores": {
+            "atual": 53,
+            "meta_1": 50,
+            "meta_3": 45,
+            "meta_5": 38,
+            "unidade": "posição"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Modelos de linguagem em português abertos (referência: Índia – Bhashini; Singapura – SEA-LION).",
+        "[Hipótese] Infraestrutura pública de computação para pesquisa (referência: Reino Unido – AI Research Resource).",
+        "[Hipótese] Atração de talentos com visto expresso (referência: Tech.Pass Singapura)."
+      ],
+      "reformas": [
+        "Lei: marco regulatório de IA (PL 2338/2023) com abordagem pró-inovação baseada em risco.",
+        "Lei: simplificação do Marco Legal de CT&I (Lei 13.243/2016).",
+        "Decreto: visto de talento."
+      ],
+      "custo": "[Hipótese] FNDCT sem contingenciamento + capital de risco privado + Lei do Bem.",
+      "riscos": [
+        "Regulação excessiva de IA.",
+        "Fuga de cérebros.",
+        "Burocracia na compra de equipamentos científicos."
+      ],
+      "sequenciamento": [
+        "Ano 1: PL de IA equilibrado e computação pública.",
+        "Anos 2–3: LLM público em português.",
+        "Anos 4–5: hubs de IA."
+      ]
+    },
+    {
+      "slug": "meio-ambiente",
+      "nome": "Meio ambiente",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Desmatamento na Amazônia Legal (PRODES, taxa consolidada) de 5.731 km² em 2025 (ago/2024–jul/2025), −12,07% ante 6.518 km² em 2024; Mato Grosso foi o único estado com alta (+26,7%).",
+          "fonte": "INPE – PRODES 2025",
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-do-inpe-aponta-5-731-km2-de-desmatamento-na-amazonia-em-2025"
+        },
+        {
+          "texto": "[Dado] Emissões de gases de efeito estufa – inventário oficial.",
+          "fonte": "MCTI – SIRENE",
+          "url": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene"
+        },
+        {
+          "texto": "[Dado] Mercado regulado de carbono criado pela Lei 15.042/2024.",
+          "fonte": "Planalto",
+          "url": "https://www.planalto.gov.br/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Desmatamento Amazônia (km²)",
+          "atual": "5.731 (2025)",
+          "fonte": "INPE",
+          "url": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/sistema-do-inpe-aponta-5-731-km2-de-desmatamento-na-amazonia-em-2025",
+          "meta_1": "5.000",
+          "meta_3": "3.500",
+          "meta_5": "Desmatamento ilegal zero",
+          "valores": {
+            "atual": 5731,
+            "meta_1": 5000,
+            "meta_3": 3500,
+            "meta_5": null,
+            "unidade": "km²"
+          }
+        },
+        {
+          "indicador": "Créditos de carbono emitidos (Mt CO2e)",
+          "atual": "Lacuna",
+          "fonte": "—",
+          "url": "",
+          "meta_1": "Mapear",
+          "meta_3": "Definir",
+          "meta_5": "Definir",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "Mt CO2e"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Detecção de desmatamento em tempo real com IA (referência: DETER/INPE, Brasil; Global Forest Watch).",
+        "[Hipótese] Fiscalização remota e embargos automáticos via CAR."
+      ],
+      "reformas": [
+        "Lei: regulamentação do mercado de carbono (SBCE).",
+        "Decreto: embargos remotos.",
+        "Lei: concessões florestais ampliadas."
+      ],
+      "custo": "[Hipótese] Fundo Amazônia, TFFF (Fundo Florestas Tropicais), mercado de carbono.",
+      "riscos": [
+        "Crime ambiental organizado.",
+        "Resistência local.",
+        "Tensão com agro."
+      ],
+      "sequenciamento": [
+        "Ano 1: embargos remotos.",
+        "Anos 2–3: SBCE operando.",
+        "Anos 4–5: desmatamento ilegal zero."
+      ]
+    },
+    {
+      "slug": "justica",
+      "nome": "Justiça",
+      "diagnostico": [
+        {
+          "texto": "[Dado] 75,5 milhões de processos pendentes em dez/2025 (−4,3% ante 2024, quando eram 78,9 milhões); 40,9 milhões de casos novos em 2025.",
+          "fonte": "CNJ – Justiça em Números 2026",
+          "url": "https://www.cnj.jus.br/justica-em-numeros-2026-estoque-de-processos-cai-em-ano-de-maior-demanda-da-serie-historica/"
+        },
+        {
+          "texto": "[Dado] Despesa do Judiciário de R$ 146,5 bilhões em 2024, equivalente a 1,2% do PIB. [Lacuna] Despesa de 2025 não verificada.",
+          "fonte": "CNJ – Justiça em Números 2025",
+          "url": "https://www.cnj.jus.br/pesquisas-judiciarias/justica-em-numeros/"
+        },
+        {
+          "texto": "[Dado] Índice de Percepção da Corrupção 2025: nota 35/100, 107º de 182 (34 em 2024).",
+          "fonte": "Transparência Internacional – IPC 2025",
+          "url": "https://transparenciainternacional.org.br/ipc/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Processos pendentes (milhões)",
+          "atual": "75,5 (2025)",
+          "fonte": "CNJ",
+          "url": "https://www.cnj.jus.br/pesquisas-judiciarias/justica-em-numeros/",
+          "meta_1": "72",
+          "meta_3": "60",
+          "meta_5": "45",
+          "valores": {
+            "atual": 75.5,
+            "meta_1": 72,
+            "meta_3": 60,
+            "meta_5": 45,
+            "unidade": "milhões"
+          }
+        },
+        {
+          "indicador": "IPC Transparência Internacional",
+          "atual": "35 (2025)",
+          "fonte": "TI",
+          "url": "https://transparenciainternacional.org.br/ipc/",
+          "meta_1": "37",
+          "meta_3": "42",
+          "meta_5": "50",
+          "valores": {
+            "atual": 35,
+            "meta_1": 37,
+            "meta_3": 42,
+            "meta_5": 50,
+            "unidade": "pontos (0–100)"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Triagem de recursos com IA (referência: STF – Victor; STJ – Sócrates).",
+        "[Hipótese] Detecção de conluio em licitações (referência: CGU – Alice; Coreia do Sul – KONEPS).",
+        "[Hipótese] Tribunais online para pequenas causas (referência: Estônia; China – internet courts)."
+      ],
+      "reformas": [
+        "PEC: fim do foro privilegiado para crimes comuns e prisão após 2ª instância.",
+        "Lei: reforma do CPC/CPP para limitar recursos.",
+        "Lei: transparência de salários acima do teto (supersalários)."
+      ],
+      "custo": "[Hipótese] Autofinanciado por produtividade; redução de despesas com supersalários.",
+      "riscos": [
+        "Corporações do Judiciário e MP.",
+        "STF e interpretação constitucional.",
+        "Congresso com parlamentares investigados."
+      ],
+      "sequenciamento": [
+        "Ano 1: IA de triagem e corte de supersalários.",
+        "Anos 2–3: PEC anticorrupção.",
+        "Anos 4–5: redução do estoque."
+      ]
+    },
+    {
+      "slug": "sistema-tributario",
+      "nome": "Sistema tributário",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Carga tributária bruta do governo geral de 32,40% do PIB em 2025 (estimativa preliminar do Tesouro, maior da série); 32,22% em 2024 na série revisada. A metodologia mudou em 2025 (FGTS e Sistema S excluídos), o que reduziu o nível de toda a série.",
+          "fonte": "Tesouro Nacional – Boletim CTB 2025",
+          "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025"
+        },
+        {
+          "texto": "[Dado] EC 132/2023 e LC 214/2025: IBS/CBS (IVA dual) com transição 2026–2033.",
+          "fonte": "Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+        },
+        {
+          "texto": "[Dado] Gastos tributários federais previstos para 2026: R$ 612,8 bilhões (4,43% do PIB).",
+          "fonte": "Receita Federal – DGT PLOA 2026",
+          "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Carga tributária (% PIB)",
+          "atual": "32,40 (2025)",
+          "fonte": "Tesouro",
+          "url": "https://www.gov.br/tesouronacional/pt-br/noticias/carga-tributaria-bruta-do-governo-geral-atinge-32-40-do-pib-em-2025",
+          "meta_1": "32,4",
+          "meta_3": "31,5",
+          "meta_5": "30",
+          "valores": {
+            "atual": 32.4,
+            "meta_1": 32.4,
+            "meta_3": 31.5,
+            "meta_5": 30,
+            "unidade": "% PIB"
+          }
+        },
+        {
+          "indicador": "Horas para cumprir obrigações tributárias",
+          "atual": "Lacuna (Doing Business descontinuado)",
+          "fonte": "Banco Mundial B-READY",
+          "url": "https://www.worldbank.org/en/businessready",
+          "meta_1": "Medir",
+          "meta_3": "-30%",
+          "meta_5": "-60%",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "horas/ano"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Declaração pré-preenchida universal e split payment com IA (referência: Estônia; Brasil já tem IRPF pré-preenchido).",
+        "[Hipótese] Fiscalização por risco (referência: Índia – GST Network analytics)."
+      ],
+      "reformas": [
+        "Leis complementares de implementação do IBS/CBS.",
+        "Lei: reforma da renda com redução de alíquota corporativa e tributação de dividendos neutra.",
+        "Lei: corte de gastos tributários."
+      ],
+      "custo": "[Hipótese] Neutra em arrecadação no início; queda gradual compensada por corte de gastos.",
+      "riscos": [
+        "Estados e municípios no Comitê Gestor.",
+        "Setores com regimes especiais.",
+        "Complexidade da transição."
+      ],
+      "sequenciamento": [
+        "Ano 1: CBS em teste e split payment.",
+        "Anos 2–3: reforma da renda.",
+        "Anos 4–5: redução da carga."
+      ]
+    },
+    {
+      "slug": "estado-burocracia",
+      "nome": "Estado e burocracia",
+      "diagnostico": [
+        {
+          "texto": "[Dado] GOV.BR com 179,5 milhões de contas ativas e 5.390 serviços digitais (out/2026); 80 milhões de contas nível ouro (fev/2026).",
+          "fonte": "Governo Digital / MGI",
+          "url": "https://www.gov.br/governodigital/pt-br"
+        },
+        {
+          "texto": "[Estimativa] Brasil classificado no grupo A (líderes) do GovTech Maturity Index na edição de 2022; não reconferido nesta rodada.",
+          "fonte": "Banco Mundial – GTMI",
+          "url": "https://www.worldbank.org/en/programs/govtech/gtmi"
+        },
+        {
+          "texto": "[Dado] Despesa com pessoal da União e estados.",
+          "fonte": "Tesouro – Boletim de Finanças dos Entes",
+          "url": "https://www.tesourotransparente.gov.br/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Serviços 100% digitais (%)",
+          "atual": "Lacuna",
+          "fonte": "gov.br",
+          "url": "https://www.gov.br/governodigital/",
+          "meta_1": "85",
+          "meta_3": "95",
+          "meta_5": "100",
+          "valores": {
+            "atual": null,
+            "meta_1": 85,
+            "meta_3": 95,
+            "meta_5": 100,
+            "unidade": "%"
+          }
+        },
+        {
+          "indicador": "Tempo para abrir empresa (horas)",
+          "atual": "Lacuna – Mapa de Empresas",
+          "fonte": "MDIC",
+          "url": "https://www.gov.br/empresas-e-negocios/pt-br/mapa-de-empresas",
+          "meta_1": "Medir",
+          "meta_3": "24",
+          "meta_5": "1",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": 24,
+            "meta_5": 1,
+            "unidade": "horas"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Serviços proativos com eventos de vida (referência: Estônia, Singapura – LifeSG).",
+        "[Hipótese] Assistentes de IA para servidores redigirem pareceres (referência: Reino Unido – 'Humphrey').",
+        "[Hipótese] Interoperabilidade tipo X-Road (referência: Estônia)."
+      ],
+      "reformas": [
+        "PEC 32 (Reforma Administrativa) ou nova versão: avaliação de desempenho e fim de privilégios.",
+        "Lei: digital por padrão (Lei 14.129/2021 – Governo Digital) com prazos.",
+        "Decreto: só-uma-vez (once-only)."
+      ],
+      "custo": "[Hipótese] Economia com digitalização e redução de cargos comissionados.",
+      "riscos": [
+        "Corporações do serviço público.",
+        "STF sobre estabilidade.",
+        "Capacidade técnica desigual nos municípios."
+      ],
+      "sequenciamento": [
+        "Ano 1: once-only e IA nos serviços.",
+        "Anos 2–3: reforma administrativa.",
+        "Anos 4–5: Estado 100% digital."
+      ]
+    },
+    {
+      "slug": "defesa-relacoes-exteriores",
+      "nome": "Defesa e relações exteriores",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Gasto militar de 1,1% do PIB em 2025 (US$ 23,9 bilhões).",
+          "fonte": "SIPRI – Trends in World Military Expenditure 2025",
+          "url": "https://www.sipri.org/sites/default/files/2026-04/2604_milex_2025.pdf"
+        },
+        {
+          "texto": "[Dado] Processo de acessão à OCDE iniciado em 2022.",
+          "fonte": "OCDE",
+          "url": "https://www.oecd.org/brazil/"
+        },
+        {
+          "texto": "[Dado] Corrente de comércio com EUA e China.",
+          "fonte": "MDIC – Comex Stat",
+          "url": "https://comexstat.mdic.gov.br/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Instrumentos OCDE aderidos",
+          "atual": "Lacuna – verificar",
+          "fonte": "OCDE",
+          "url": "https://www.oecd.org/brazil/",
+          "meta_1": "+10",
+          "meta_3": "Acessão avançada",
+          "meta_5": "Membro",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "instrumentos"
+          }
+        },
+        {
+          "indicador": "Gasto com pessoal / orçamento defesa (%)",
+          "atual": "Lacuna",
+          "fonte": "Ministério da Defesa",
+          "url": "https://www.gov.br/defesa/",
+          "meta_1": "Medir",
+          "meta_3": "Reduzir",
+          "meta_5": "Reduzir",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "%"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Vigilância de fronteiras e Amazônia Azul com IA (referência: Israel; SISFRON brasileiro).",
+        "[Hipótese] Ciberdefesa (referência: Estônia – Centro de Ciberdefesa da OTAN)."
+      ],
+      "reformas": [
+        "Acordo de cooperação tecnológica com EUA.",
+        "Lei: reforma da carreira militar e previdência.",
+        "Retomada do Acordo de Salvaguardas Tecnológicas (Alcântara, já vigente desde 2019)."
+      ],
+      "custo": "[Hipótese] Realocação de pessoal para investimento; cooperação EUA.",
+      "riscos": [
+        "Tradição de não alinhamento do Itamaraty.",
+        "Dependência comercial da China.",
+        "Opinião pública."
+      ],
+      "sequenciamento": [
+        "Ano 1: agenda bilateral EUA e OCDE.",
+        "Anos 2–3: acordos tecnológicos.",
+        "Anos 4–5: acessão à OCDE."
+      ]
+    },
+    {
+      "slug": "cidades-saneamento",
+      "nome": "Cidades e saneamento",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Ano-base 2024: 84,14% da população atendida por rede de água e 62,30% por rede coletora de esgoto (rural: 22,88% e 4,75%).",
+          "fonte": "Ministério das Cidades – SINISA 2025",
+          "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa"
+        },
+        {
+          "texto": "[Dado] Marco Legal do Saneamento (Lei 14.026/2020): metas de 99% água e 90% esgoto até 2033.",
+          "fonte": "Planalto",
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14026.htm"
+        },
+        {
+          "texto": "[Dado] Déficit habitacional estimado pela Fundação João Pinheiro.",
+          "fonte": "FJP",
+          "url": "https://fjp.mg.gov.br/deficit-habitacional-no-brasil/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Coleta de esgoto (%)",
+          "atual": "62,30 (2024)",
+          "fonte": "SINISA",
+          "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa",
+          "meta_1": "65",
+          "meta_3": "72",
+          "meta_5": "80",
+          "valores": {
+            "atual": 62.3,
+            "meta_1": 65,
+            "meta_3": 72,
+            "meta_5": 80,
+            "unidade": "%"
+          }
+        },
+        {
+          "indicador": "Água tratada (%)",
+          "atual": "84,14 (2024)",
+          "fonte": "SINISA",
+          "url": "https://www.gov.br/cidades/pt-br/acesso-a-informacao/acoes-e-programas/saneamento/sinisa/resultados-sinisa",
+          "meta_1": "86",
+          "meta_3": "90",
+          "meta_5": "95",
+          "valores": {
+            "atual": 84.14,
+            "meta_1": 86,
+            "meta_3": 90,
+            "meta_5": 95,
+            "unidade": "%"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Detecção de perdas de água com IA (referência: Singapura – PUB).",
+        "[Hipótese] Planejamento urbano com gêmeos digitais (referência: Virtual Singapore)."
+      ],
+      "reformas": [
+        "Lei: regionalização obrigatória e concessões.",
+        "Decreto: regulação via ANA.",
+        "Lei: zoneamento simplificado."
+      ],
+      "custo": "[Hipótese] Concessões privadas (leilões estaduais como CEDAE, Sabesp).",
+      "riscos": [
+        "Estatais estaduais de saneamento.",
+        "Municípios pequenos sem escala.",
+        "Tarifa social."
+      ],
+      "sequenciamento": [
+        "Ano 1: leilões regionais.",
+        "Anos 2–3: obras.",
+        "Anos 4–5: trajetória para metas de 2033."
+      ]
+    },
+    {
+      "slug": "cultura-demografia",
+      "nome": "Cultura e demografia",
+      "diagnostico": [
+        {
+          "texto": "[Dado] Censo 2022: 203,1 milhões de habitantes.",
+          "fonte": "IBGE – Censo 2022",
+          "url": "https://censo2022.ibge.gov.br/"
+        },
+        {
+          "texto": "[Dado] Taxa de fecundidade total de 1,55 filho por mulher em 2024, abaixo da reposição.",
+          "fonte": "IBGE – Tábuas de mortalidade / Projeções 2024",
+          "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/45275-expectativa-de-vida-chega-a-76-6-anos-em-2024"
+        },
+        {
+          "texto": "[Dado] Índice de envelhecimento de 55,2 (Censo 2022).",
+          "fonte": "IBGE",
+          "url": "https://censo2022.ibge.gov.br/"
+        }
+      ],
+      "indicadores": [
+        {
+          "indicador": "Fecundidade (filhos/mulher)",
+          "atual": "1,55 (2024)",
+          "fonte": "IBGE",
+          "url": "https://www.ibge.gov.br/",
+          "meta_1": "—",
+          "meta_3": "—",
+          "meta_5": "Monitorar",
+          "valores": {
+            "atual": 1.55,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "filhos/mulher"
+          }
+        },
+        {
+          "indicador": "Produção audiovisual independente (obras/ano)",
+          "atual": "Lacuna – ANCINE",
+          "fonte": "ANCINE",
+          "url": "https://www.gov.br/ancine/",
+          "meta_1": "Medir",
+          "meta_3": "+20%",
+          "meta_5": "+50%",
+          "valores": {
+            "atual": null,
+            "meta_1": null,
+            "meta_3": null,
+            "meta_5": null,
+            "unidade": "obras/ano"
+          }
+        }
+      ],
+      "alavancas_ia": [
+        "[Hipótese] Digitalização de acervos com IA (referência: Biblioteca Nacional; Europeana).",
+        "[Hipótese] Ferramentas de IA para produção audiovisual com financiamento privado."
+      ],
+      "reformas": [
+        "Lei: modernização da Lei Rouanet com foco em mercado e transparência.",
+        "Lei: políticas pró-família (licença parental flexível)."
+      ],
+      "custo": "[Hipótese] Incentivo fiscal reformado; patrocínio privado.",
+      "riscos": [
+        "Polarização cultural.",
+        "Dependência de editais públicos.",
+        "Envelhecimento acelerado."
+      ],
+      "sequenciamento": [
+        "Ano 1: transparência total da Rouanet.",
+        "Anos 2–3: políticas familiares.",
+        "Anos 4–5: indústria criativa exportadora."
+      ]
+    }
+  ],
+  "verificacao": "Rodada de verificação web em 29/10/2026"
+}
